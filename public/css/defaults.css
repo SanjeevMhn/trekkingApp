@@ -1,0 +1,73 @@
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-primary);
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.brand-name{
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    gap: 5px;
+    .icon-container{
+        height: 75px;
+        width: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: auto;
+            width: 100%; 
+        }
+    }
+    .company-name{
+        font-size: var(--fs-md);
+    }
+}
+
+.btn{
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+    outline: unset;
+    border-width: 0;
+    font-size: var(--fs-base);
+    padding: 10px 25px;
+    height: 44px;
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    color: #fff;
+}
+
+.header-text{
+    font-size: var(--fs-xl);
+}
+
+.has-back-img{
+    position: relative;
+    img{
+        position: absolute;
+        top: 0; 
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 1056px) {
+    .wrapper {
+        width: var(--wrapper-width);
+    }
+}

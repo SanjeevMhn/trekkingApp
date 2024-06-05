@@ -1,0 +1,29 @@
+:root{
+    font-size: 62.5%;
+
+    --fs-xs: 0.5rem;
+    --fs-sm: 1.0rem;
+    --fs-base: 1.4rem;
+    --fs-md: 1.6rem;
+    --fs-lg: 1.8rem;
+    --fs-xl: 2.2rem;
+    --fs-xxl: 3.2rem;
+
+    --wrapper-width: 1056px;
+    --font-primary: "Roboto", sans-serif;
+    --color-primary: #DB5F1E;
+}
+
+@media screen and (min-width: 890px) {
+    :root{
+        --fs-xs: 0.8rem;
+        --fs-sm: 1.2rem;
+        --fs-base: 1.8rem;
+        --fs-md: 2.2rem;
+        --fs-lg: 2.8rem;
+        --fs-xl: 3.5rem;
+        --fs-xxl: 4.8rem;
+    }
+}
+
+

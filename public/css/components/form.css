@@ -1,0 +1,19 @@
+.custom-form{
+    .form-control{
+        padding: 10px;
+        font-size: var(--fs-base);
+        border-width: 1px;
+        min-height: 0;
+    }
+    input{
+        height: 22px;
+    }
+    .form-row{
+        &.flow-layout{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+}

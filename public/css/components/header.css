@@ -1,0 +1,19 @@
+nav,.main-nav{
+    > *{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul,.nav-list{
+        display: flex;
+        a,
+        .nav-link{
+            display: flex;
+            padding: 24px 18px;
+            font-size: var(--fs-base);
+            color: #000;
+            text-decoration: none;
+            gap: 5px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.hero-section {
+    height: calc(100vh - 6.6rem);
+
+    .header-text{
+        font-weight: 700;
+    }
+
+    >* {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+    }
+}
